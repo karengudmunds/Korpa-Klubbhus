@@ -10,14 +10,14 @@ type:
 
 {% for category in page.type %}
 
-<div class="grid">
+<div class="grid-middle">
   <hr class="col-5">
-  <h2 class="col-2"> {{category.name}} </h2>
+  <h2 class="col-2 centered padded"> {{category.name}} </h2>
     <hr class="col-5">
     </div>
-    <div>
+    <div class="grid">
 {% for item in category.menu-items %}
-<div class="grid">
+<div class="grid col-6">
   <div class="col-9">
     <h3> {{item.title}} </h3>
     <p> {{item.description}} </p>
