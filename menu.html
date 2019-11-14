@@ -1,3 +1,26 @@
 ---
 layout: default
+menu-item:
+-  description:
+   title:
+   price:
+-  description:
+   title:
+   price:
+-  description:
+   title:
+   price:
 ---
+
+{% for item in page.menu-item %}
+<div>
+  <div>
+    <h3> {{post.title}} </h3>
+    <p> {{post.description}} </p>
+  </div>
+  <div>
+    <p> {{post.price}} </p>
+  </div>
+</div>
+  
+{% endfor %}
