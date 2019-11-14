@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0
+}
 /* big elements */
 section, header, footer {
-  padding: 1% 5%;
+  padding: 5% 7%;
 }
 
 /* typography */
@@ -60,22 +67,91 @@ a {
   color:inherit;
 }
 
-/* utility classes */
-
-korpa-bg {
-  background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
-  max-width: 1200px;
-  min-height: 470px;
-  background-position: 50% 49%;
+header a {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
 }
 
-/* specifity classes */
+footer h3 {
+letter-spacing: .2rem;
+text-transform: uppercase;
+}
 
+/* utility classes */
+
+
+/* Images home page */
 
 [class*=bg]{
   background-position: center;
   background-size: cover;
+  min-height: 200px;
 }
+
+.korpa-bg {
+  background-image: url("https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  min-height: 70vh;
+}
+
+.image-bg {
+  background-image: url("https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  max-width: 1800px;
+  min-height: 470px;
+  background-position: 50% 49%;
+}
+
+.image1-bg {
+  background-image:url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.image2-bg {
+  background-image: url("https://images.unsplash.com/photo-1529003600303-bd51f39627fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.image3-bg {
+  background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  max-width: 400px;
+  min-height: 400px;
+}
+
+.image4-bg {
+  background-image: url("https://images.unsplash.com/photo-1536510344784-b43e97721c1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+}
+
+.image5-bg {
+  background-image: url("https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.image6-bg {
+  background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  min-height: 200px;
+  margin-bottom: 1rem;
+}
+
+.image7-bg {
+  background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  margin-bottom: 1rem;
+}
+
+.image8-bg {
+  background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+
+}
+
+.image9-bg {
+  background-image:url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+
+}
+
+.photo1-bg {
+  background-image: url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80");
+}
+
+.photo2-bg {
+  background-image: url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80");
+}
+/* specifity classes */
+
 
 /* background colors */
 .light-bg{ background-color: #f5f5f5}
@@ -92,8 +168,9 @@ korpa-bg {
 .padded {padding: 5%}
 .padded-5px { padding: 5px}
 .padded-1 { padding: 1rem; }
-.padded-2 { padding: 2rem;}
-.padded-3 { padding: 3rem;}
+.padded-2 { padding: 2rem; }
+.padded-3 { padding: 3rem; }
+.padded-4 { padding: 4rem; }
 .padded-bottom {padding-bottom: 10rem;}
 .padded-top {padding-top: 2rem;}
 
@@ -107,3 +184,13 @@ korpa-bg {
 .margin-bottom-2 {margin-bottom: 2rem;}
 .margin-bottom-5 {margin-bottom: 5%;}
 .margin {margin: 2rem 15rem;}
+
+/* button  */
+.button {
+  border: 1px solid black;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 10rem;
+  text-align: center;
+  padding: .8rem;
+}
