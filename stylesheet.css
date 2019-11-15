@@ -106,7 +106,7 @@ input, textarea {
 }
 input[type="submit" i] {
   -webkit-appearance: none;
-  color: #F8A39B;
+  color: black;
   display: inline-block;
   padding: 1rem;
   width: 8rem;
@@ -115,6 +115,15 @@ input[type="submit" i] {
   text-transform: uppercase;
   }
 
+form {
+  max-width: 800px;
+  margin: auto;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid black;
+}
 /* utility classes */
 
 /* Images home page */
@@ -239,4 +248,27 @@ input[type="submit" i] {
 .max-500 {
   max-width: 500px;
   margin: auto;
+}
+
+#name{
+  width: calc(100% - 1rem);
+}
+.banner-text {
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+  color: white;
+  font-size: 36px;
+}
+
+.logo {
+  /* margin-top: 1rem; */
+}
+
+.category {
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+.menu-title {
+  font-weight: bold;
+  text-transform: uppercase;
 }
