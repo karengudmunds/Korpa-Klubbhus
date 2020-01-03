@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-family: adobe-caslon-pro, serif;
+  font-family: miller display;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
@@ -56,7 +56,7 @@ h4 {
 }
 
 p {
-  font-family: adobe-caslon-pro, serif;
+  font-family: miller display;
   font-style: normal;
   font-weight: 400;
   color: #404040;
@@ -76,6 +76,11 @@ header a {
 footer h3 {
 letter-spacing: .2rem;
 text-transform: uppercase;
+color: white;
+}
+
+footer p {
+  color: white;
 }
 
 /* get in touch  */
@@ -125,6 +130,7 @@ hr {
   border: none;
   border-bottom: 4px solid black;
 }
+
 /* utility classes */
 
 /* Images home page */
@@ -197,13 +203,19 @@ hr {
 .photo2-bg {
   background-image: url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80");
 }
+
+.fundur-bg {
+  background-image: url(Images/fundur-bg.jpeg);
+  justify-content: center;
+  min-height: 70vh;
+}
 /* specifity classes */
 
 
 /* background colors */
 .light-bg{ background-color: #f5f5f5;}
 .featured-bg {background-color: }
-.light-black-bg {background-color: #22333B;}
+.light-black-bg {background-color: #222222;}
 
 /* text-alignment classes */
 
@@ -225,6 +237,7 @@ hr {
 .padded-top {padding-top: 2rem;}
 .paddedLeft-2 {padding-left: 2rem;}
 .paddedRight-2 {padding-right: 2rem;}
+.padded-10 { padding: 10rem;}
 
 
 /* Margin */
@@ -245,7 +258,7 @@ hr {
   width: 10rem;
   text-align: center;
   padding: .8rem;
-  font-family: adobe-caslon-pro, serif;
+  font-family: Halyard display;
   font-style: normal;
   font-weight: 400;
 }
@@ -275,7 +288,7 @@ hr {
 .menu-title {
   text-transform: uppercase;
   color: #22333B;
-  font-family: adobe-caslon-pro, serif;
+  font-family: Halyard display;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -283,7 +296,7 @@ hr {
 
 .description {
   color: #22333B;
-  font-family: adobe-caslon-pro, serif;
+  font-family: miller display;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -298,4 +311,31 @@ hr {
   margin-right: 2rem;
   color: white;
   font-weight: bold;
+  font-family: miller display;
+}
+
+.fundir h2,h3 {
+  color: white;
+}
+
+.fundir a {
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  width: 8rem;
+  text-align: center;
+}
+
+.fundir h2 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.fundir h3 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: miller display;
+
 }
