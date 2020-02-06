@@ -30,6 +30,7 @@ type:
         description: 'sveppir, beikon, ristað súrdeigsbrauð'
         price: 1.490.-
   - name: Fiskiréttir
+    banner-image: /images/fundur-bg.jpeg
     menu-items:
       - title: Fiskisúpa Korpa
         description: 'blandaður fiskur, súrdeigsbrauð, smjör'
@@ -49,6 +50,7 @@ type:
         description: 'gratíneraður þorskhnakki, rækjur, grænmeti, kartöflur, bearnaisesósa'
         price: 2.690.-
   - name: Grillseðill
+    <!-- banner-image: /Images/fundur-bg.jpeg -->
     menu-items:
       - title: Korpuborgari
         description: '120gr buff, piparostur, grænmeti, rauðlaukssulta, franskar'
@@ -72,6 +74,7 @@ type:
         description: 'grænmeti, ristað brauð, smjör'
         price: 1.890.-
   - name: Bökur
+    banner-image: /Images/fundur-bg.jpeg
     menu-items:
       - title: Margaritubaka
         description: 'sósa, mozzarella'
@@ -109,28 +112,45 @@ type:
         description:
         price: 200.-
 ---
+<div class="grid">
 
 {% for category in page.type %}
+<div class="col-6 padded-5">
 
 <div class="grid-middle-spaceBetween padded ">
-  <hr class="col-5">
-  <h2 class=" category col-2 centered"> {{category.name}} </h2>
-    <hr class="col-5">
-    </div>
-    <div class="grid-top paddedRight-2 paddedLeft-2">
-{% for item in category.menu-items %}
-<div class="grid col-6 padded paddedBottom-0 paddedTop-0">
-  <div class="col-9">
-    <h3 class="menu-title"> {{item.title}} </h3>
-    <p class="description"> {{item.description}} </p>
+  <!-- <hr class="col-5"> -->
+  <h2 class=" category col-12 centered"> {{category.name}} </h2>
+    <!-- <hr class="col-5"> -->
   </div>
-  <div class="col-3 right">
-    <p> {{item.price}} </p>
-  </div>
-</div>
+    <div class="grid-top paddedRight-2 paddedLeft-2 padded-bottom">
+      {% for item in category.menu-items %}
+      <div class="grid col-6 menu-item padded paddedBottom-0 paddedTop-0 ">
+        <div class="col-9">
+          <h3 class="menu-title"> {{item.title}} </h3>
+          <p class="description"> {{item.description}} </p>
+        </div>
+        <div class="col-3 right">
+          <p> {{item.price}} </p>
+        </div>
+      </div>
+
 
 
 {% endfor %}
 </div>
 
+
+
+</div>
+{%if category.banner-image %}
+
+<section class="banner col-12 grid-center fixed banner-bg" style="background-image:url('{{category.banner-image}}')">
+
+
+</section>
+
+{% endif %}
+
 {% endfor %}
+
+</div>

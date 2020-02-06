@@ -11,6 +11,9 @@
 [class*=col-], [class*=col_], [class~=col] {
   padding: 0
 }
+
+
+[class*=grid-].grid-top[class*=-bottom]{align-items: flex-start;}
 /* big elements */
 section, footer {
   padding: 5% 7%;
@@ -30,12 +33,13 @@ h1 {
 }
 
 h2 {
-  font-family: miller display;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
   color: rgba(33,33,33,0.88);
   text-transform: uppercase;
+  letter-spacing: .2rem;
 
 }
 
@@ -56,7 +60,7 @@ h4 {
 }
 
 p {
-  font-family: miller display;
+  font-family: raleway, sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #404040;
@@ -66,22 +70,29 @@ p {
 a {
   text-decoration: none;
   color:inherit;
+  font-family: futura-pt, sans-serif;
 }
 
 header a {
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
+  font-size: 14px;
+  color: #90887C;
 }
 
 footer h3 {
 letter-spacing: .2rem;
 text-transform: uppercase;
-color: white;
 }
 
 footer p {
-  color: white;
+  color: inherit;
 }
+
+.logo {
+  color: #90887C;
+}
+
 
 /* get in touch  */
 
@@ -93,8 +104,9 @@ label {
   text-transform: uppercase;
   color: #404040;
   display: block;
-  padding: .5rem;
-  margin: .5rem .5rem;
+  margin-right: .5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   width: 100%;
 }
 
@@ -104,10 +116,11 @@ label::after {
 }
 
 input, textarea {
-  border: 1px solid #404040;
+  border: 2px solid #f5f5f5;
   display: block;
   padding: .5rem .5rem;
-  margin: .5rem 1rem;
+  margin-right: .5rem;
+  margin-bottom: 0.5rem;
   width: 100%;
 }
 input[type="submit" i] {
@@ -126,10 +139,15 @@ form {
   margin: auto;
 }
 
-hr {
+footer a {
+  display: block;
+  color:inherit;
+  margin-bottom: .5rem;
+}
+/* hr {
   border: none;
   border-bottom: 4px solid black;
-}
+} */
 
 /* utility classes */
 
@@ -138,11 +156,11 @@ hr {
 [class*=bg]{
   background-position: center;
   background-size: cover;
-  min-height: 200px;
+  min-height: 80px;
 }
 
-.korpa-bg {
-  background-image: url("https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+.banner-bg {
+  background-image: url("Images/banner-bg.jpeg");
   min-height: 70vh;
 }
 
@@ -216,6 +234,11 @@ hr {
 .light-bg{ background-color: #f5f5f5;}
 .featured-bg {background-color: }
 .light-black-bg {background-color: #222222;}
+.black-bg {
+  background-color: #141414;
+  color: #90877c;
+}
+
 
 /* text-alignment classes */
 
@@ -238,6 +261,9 @@ hr {
 .paddedLeft-2 {padding-left: 2rem;}
 .paddedRight-2 {padding-right: 2rem;}
 .padded-10 { padding: 10rem;}
+.padded-point-5per {padding: .5%}
+
+.no-padding { padding: 0;}
 
 
 /* Margin */
@@ -252,15 +278,33 @@ hr {
 
 /* button  */
 .button {
-  border: 1px solid black;
+  border: 2px solid black;
   text-transform: uppercase;
   display: inline-block;
   width: 10rem;
   text-align: center;
   padding: .8rem;
-  font-family: Halyard display;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 400;
+}
+
+.button-homepage {
+  letter-spacing: .5rem;
+  border: 2px solid black;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 12rem;
+  text-align: center;
+  padding: .8rem;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+a:hover {
+  background-color: #90877c;
 }
 
 .max-500 {
@@ -288,10 +332,11 @@ hr {
 .menu-title {
   text-transform: uppercase;
   color: #22333B;
-  font-family: Halyard display;
+  font-family: 'Yantramanav', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
+  letter-spacing: .2rem;
 }
 
 .description {
@@ -312,9 +357,11 @@ hr {
   color: white;
   font-weight: bold;
   font-family: miller display;
+  letter-spacing: 1rem;
+  font-size: 12px;
 }
 
-.fundir h2,h3 {
+.fundir h2, .fundir h3 {
   color: white;
 }
 
@@ -338,4 +385,33 @@ hr {
   font-weight: normal;
   font-family: miller display;
 
+}
+
+.fundir-fixed {
+  position: fixed;
+}
+
+.big-bold {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: futura-pt, sans-serif;
+  letter-spacing: 1rem;
+  color: #ffffff;
+}
+
+
+.not-bold {
+  font-family: futura-pt, sans-serif;
+  letter-spacing: .5rem;
+  font-weight: normal;
+}
+
+.fontawesome {
+  display: inline-block;
+}
+
+.header {
+  position: fixed;
+  top:0;
+  width: 100%;
 }
