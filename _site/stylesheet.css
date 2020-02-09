@@ -304,7 +304,7 @@ footer a {
 
 }
 
-a:hover {
+.button-homepage:hover {
   background-color: #90877c;
 }
 
@@ -416,4 +416,19 @@ a:hover {
   position: fixed;
   top:0;
   width: 100%;
+  z-index: 9;
+}
+
+.relative {
+  position: relative;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  fill: white;
+}
+
+.special-svg{
+  fill:#90877c;
 }
