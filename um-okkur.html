@@ -1,4 +1,43 @@
 ---
 layout: default
 banner-heading: UM OKKUR
+um-okkur:
+- image_path: /Images/fundur3.jpg
+  name: Guðmundur Viðarsson
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- image_path: /Images/fundur3.jpg
+  name: Mjöll Daníelsdóttir
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- image_path: /Images/fundur3.jpg
+  name: Karen Guðmundsdóttir
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
+
+
+<section class="grid-centered padded centered">
+  <div class="col-8_sm-12">
+    <h2> Sagan okkar </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</section>
+
+
+<section class="promotion-bg">
+  </section>
+
+<section class="dark-bg">
+{%for person in page.um-okkur%}
+  <div class="grid  flex-flip">
+    <div class="col-6_sm-12 bg-image" style="background-image:url('{{person.image_path}}')">
+    </div>
+    <div class="col-6_sm-12-middle padded">
+      <h3> {{person.name}} </h3>
+      <p>{{person.description}} </p>
+      <!-- <a class="arrow" href="#"> > </a> -->
+    </div>
+  </div>
+
+  {%endfor%}
+
+</section>

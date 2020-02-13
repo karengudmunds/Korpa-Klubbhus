@@ -432,3 +432,11 @@ svg {
 .special-svg{
   fill:#90877c;
 }
+
+.flex-flip{
+  padding: 1rem;
+}
+
+.flex-flip:nth-child(odd) {
+  flex-direction: row-reverse;
+}
