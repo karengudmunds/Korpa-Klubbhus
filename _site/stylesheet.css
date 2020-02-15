@@ -207,11 +207,14 @@ footer a {
 
 .image8-bg {
   background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  min-height: 200px;
+  margin-bottom: 1rem;
 
 }
 
 .image9-bg {
   background-image:url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  margin-bottom: 1rem;
 
 }
 
@@ -439,4 +442,10 @@ svg {
 
 .flex-flip:nth-child(odd) {
   flex-direction: row-reverse;
+}
+
+.promotion-bg {
+  background-image: url('Images/promotion-bg.jpeg');
+  min-height: 50vh;
+  background-position: 50% 48%;
 }
