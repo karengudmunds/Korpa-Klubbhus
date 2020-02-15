@@ -160,8 +160,8 @@ footer a {
   min-height: 80px;
 }
 
-.banner-bg {
-  background-image: url("Images/banner-bg.jpeg");
+.bannerimage-bg {
+  background-image: url("Images/bannerimage-bg.jpeg");
   min-height: 70vh;
 }
 
