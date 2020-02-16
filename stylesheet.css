@@ -370,7 +370,7 @@ footer a {
 }
 
 .fundir a {
-  border: 2px solid white;
+  border: 2px solid #90887C;
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -400,7 +400,7 @@ footer a {
   font-weight: 700;
   font-family: futura-pt, sans-serif;
   letter-spacing: 1rem;
-  color: #ffffff  ;
+  color: #ffffff;
 }
 
 
@@ -448,4 +448,12 @@ svg {
   background-image: url('Images/promotion-bg.jpeg');
   min-height: 50vh;
   background-position: 50% 48%;
+}
+
+.fixed-banner {
+  background-attachment: fixed;
+}
+
+.fundir h2 {
+  color: #90887c;
 }
