@@ -51,7 +51,7 @@
              <a href="/um-okkur"> Um okkur</a>
              <a href="hafa-samband">Hafa samband</a>
           </div>
-
+    </nav>
 
 <!-- header ends -->
 
@@ -168,5 +168,16 @@
   </div>
 <!-- footer ends -->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+   $(".burger-button").click(function(){
+     $(".burger-button").toggleClass("active");
+     $(".burger-menu").toggleClass("active");
+   });
+});
+
+</script>
 </body>
 </html>

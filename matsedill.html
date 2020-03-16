@@ -3,6 +3,7 @@ layout: default
 banner-heading: MATSEÐILL
 type:
   - name: Léttir réttir
+    banner-image: /Images/fundur-bg.jpeg
     menu-items:
       - title: Kjúklinga salatskál
         description: >-
@@ -50,7 +51,7 @@ type:
         description: 'gratíneraður þorskhnakki, rækjur, grænmeti, kartöflur, bearnaisesósa'
         price: 2.690.-
   - name: Grillseðill
-    <!-- banner-image: /Images/fundur-bg.jpeg -->
+    banner-image: /images/fundur-bg.jpeg
     menu-items:
       - title: Korpuborgari
         description: '120gr buff, piparostur, grænmeti, rauðlaukssulta, franskar'
@@ -112,10 +113,10 @@ type:
         description:
         price: 200.-
 ---
-<div class="grid">
+<div class="grid-center">
 
 {% for category in page.type %}
-<div class="col-6 padded-5">
+<div class="col-9_lg-9 padded-5">
 
 <div class="grid-middle-spaceBetween padded ">
   <!-- <hr class="col-5"> -->
@@ -144,7 +145,7 @@ type:
 </div>
 {%if category.banner-image %}
 
-<section class="banner col-12 grid-center fixed-banner banner-bg" style="background-image:url('{{category.banner-image}}')">
+<section class="banner-menu col-12 grid-center fixed-banner banner-bg" style="background-image:url('{{category.banner-image}}')">
 
 
 </section>
