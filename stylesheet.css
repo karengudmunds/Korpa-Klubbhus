@@ -369,6 +369,11 @@ footer a {
   color: white;
 }
 
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
 .fundir a {
   border: 2px solid #90887C;
   color: white;
@@ -409,6 +414,14 @@ footer a {
   letter-spacing: .5rem;
   font-weight: normal;
   color: white;
+}
+
+.verd {
+  text-align: right;
+}
+
+.line-height {
+  line-height: 1.5rem;
 }
 
 .fontawesome {
@@ -461,6 +474,14 @@ svg {
 .fundir h2 {
   color: #90887c;
 }
+
+.bg-image {
+    background-image: url('/images/fundur2.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 10rem;
+  }
+
 
 /* Mobile hamburger menu - from codepan */
 
