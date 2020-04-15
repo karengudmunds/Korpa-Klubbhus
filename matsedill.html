@@ -5,30 +5,28 @@ type:
   - name: Léttir réttir
     banner-image: /Images/fundur-bg.jpeg
     menu-items:
-      - title: Kjúklinga salatskál
-        description: >-
-          teriyaki kjúklingur, sesame ginger dressing, hnetur, döðlur, parmesan
-          ostur, súrdeigsbrauð
-        price: 2.490.-
-      - title: súpa dagsins
-        description: 'nýbakað brauð, smjör'
-        price: 1.290.-
-      - title: Veganskál
-        description: 'steikt brokkólibuff, engifer dressing, hnetur, döðlur, tómatar, agúrka'
-        price: 2.290.-
-      - title: Kjúklingavængir 8.stk
+      - title: Kjúklingavængir
         description: |-
           ranch sósa, sellerí, gulrætur
           - veldu um bbq eða hot
         price: 850.-
+      - title: Kjúklingafingur
+        description: 'engifergleis, sellerí, gulrætur, aiolisósa'
+        price: 2.490.-
+      - title: mini kjúklinga taco
+        description: 'bbq, mais, rauðlaukur, salsa'
+        price: 1.290.-
       - title: Nachos
-        description: 'salsasósa, guacamole, sýrður rjómi'
+        description: 'salsasósa, guacamole, sýrður rjómi, ostur'
+        price: 2.290.-
+      - title: crola risarækjur
+        description: iborbansósa
         price: 850.-
-      - title: Ofnbakaður ostur
-        description: 'camembert, mangó chutney sósa, ristað súrdeigisbrauð'
+      - title: smá borgarar 3.stk
+        description: 'sósa, ostur, sultaður laukur'
         price: 1.490.-
-      - title: Ofnbakaður lifrakæfa
-        description: 'sveppir, beikon, ristað súrdeigsbrauð'
+      - title: saltfisk krókettur
+        description: 'tómat, hvítlaukur, sósa'
         price: 1.490.-
   - name: Salöt
     banner-image: /Images/fundur-bg.jpeg
@@ -51,11 +49,6 @@ type:
       - title: Fiskisúpa Korpa
         description: 'blandaður fiskur, súrdeigsbrauð, smjör'
         price: 1.980.-
-      - title: Fiskitaco 3.stk
-        description: >-
-          salsasósa, guacamole, sýrður rjómi, sultaður rauðlaukur, grænmeti,
-          nachos
-        price: 2.290.-
       - title: Fiskur & franskar
         description: 'þrjár tegundir af köldum heimagerðum sósum, ferkst salat'
         price: 2.290.-
@@ -74,20 +67,23 @@ type:
       - title: Bearnaiseborgari
         description: '120gr buff, bearnaisesósa, ristaðir sveppir, ostur, grænmeti, franskar'
         price: 2.490.-
-      - title: Kjúklingaloka Tex Mex style
-        description: 'grillaðar kjúklingalundir, avacado, grænmeti, sætar vöfflu franskar'
+      - title: Klúbbsamloka
+        description: 'skinka, ostur, beikon, spælt egg, franskar'
         price: 2.990.-
-      - title: Grillaðar lambakótelettur
-        description: 'bearnaisesósa, ferkst sumar salat, franskar'
+      - title: Lambagrillsteik
+        description: 'bearnaisesósa, ferskt salat, mais, franskar'
         price: 2.990.-
       - title: Nautapiparsteik
         description: 'Koniakslöguð piparsósa, ristaðir sveppir, franskar'
         price: 3.200.-
+      - title: kjúklingur milanes
+        description: '120gr buff, piparostur, grænmeti, rauðlaukssulta, franskar'
+        price:
+      - title: Herra Ameríka
+        description: 'beikon, egg, pönnukökur, síróp, melóna ristað brauð'
+        price: 1.890.-
       - title: Grilluð samloka
         description: 'skinka, ostur, franskar'
-        price: 1.890.-
-      - title: Beikon & Egg
-        description: 'grænmeti, ristað brauð, smjör'
         price: 1.890.-
   - name: Bökur
     banner-image: /Images/fundur-bg.jpeg
@@ -101,13 +97,11 @@ type:
       - title: Hráskinkubaka
         description: 'ostasósa, hráskinka, parmesan, klettasalat'
         price: 2.490.-
-      - title: BBQ kjúklingabaka
-        description: 'sósa, bbq kjúklingur, rauðlaukur'
-        price: 2.490.-
       - title: Humarbaka
         description: 'ostasósa, humar, parmesan, laukur, sveppir, klettasalat'
         price: 2.890.-
   - name: Eftirréttir
+<<<<<<< HEAD
     banner-image: /Images/fundur-bg.jpeg
     menu-items:
       - title: Margaritubaka
@@ -122,6 +116,18 @@ type:
       - title: BBQ kjúklingabaka
         description: 'sósa, bbq kjúklingur, rauðlaukur'
         price: 2.490.-
+=======
+    menu-items:
+      - title: Volg súkkulaðikaka
+        description: 'kjúklingalíki, hrísgrjón, ristað súrdeigsbrauð'
+        price: '1990'
+      - title: Tíramisu
+        description: 'kjúklingalíki, hrísgrjón, ristað súrdeigsbrauð'
+        price: '1990'
+      - title: Bananasplit
+        description: 'kjúklingalíki, hrísgrjón, ristað súrdeigsbrauð'
+        price: '1990'
+>>>>>>> 68bfdcbe1f81995e0140f69d82ba9387f2232880
   - name: Bættu við
     menu-items:
       - title: Franskar
@@ -143,6 +149,7 @@ type:
         description:
         price: 200.-
 ---
+
 <div class="grid-center">
 
 {% for category in page.type %}
