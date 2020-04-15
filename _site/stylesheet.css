@@ -181,40 +181,46 @@ footer a {
 }
 
 .photo3-bg {
-  background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("Images/pizza-home.jpeg");
   max-width: 400px;
   min-height: 400px;
+  background-position: 50% 75%;
 }
 
 .photo4-bg {
-  background-image: url("https://images.unsplash.com/photo-1536510344784-b43e97721c1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+  background-image: url("Images/burger.jpeg");
 }
 
 .photo5-bg {
   background-image: url("https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-position: 50% 75%;
 }
 
 .photo6-bg {
   background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   min-height: 200px;
   margin-bottom: 1rem;
+  background-position: 50% 70%;
 }
 
 .photo7-bg {
   background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   margin-bottom: 1rem;
+  background-position: 50% 60%;
 }
 
 .photo8-bg {
   background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   min-height: 200px;
   margin-bottom: 1rem;
+  background-position: 50% 70%;
 
 }
 
 .photo9-bg {
   background-image:url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   margin-bottom: 1rem;
+  background-position: 50% 60%;
 
 }
 
