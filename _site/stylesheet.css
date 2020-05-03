@@ -488,6 +488,32 @@ svg {
     min-height: 10rem;
   }
 
+  /* Dropdown from codepan */
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      left:10px;
+      padding:5px;
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdown-content a {
+    display:block;
+    padding:5px 15px;
+    text-align:left;
+    white-space:nowrap;
+  }
+
+  .dropdown-nav {
+    position:relative;
+  }
+  .dropdown-nav:hover .dropdown-content {
+      display: block;
+  }
+
+
+
 
 /* Mobile hamburger menu - from codepan */
 
