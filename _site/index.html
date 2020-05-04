@@ -7,6 +7,9 @@
 <!-- Gridlex  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
+<!-- responsive media -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- Social media icons  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
@@ -27,16 +30,19 @@
   </head>
   <body>
     <header class="grid black-bg header">
-      <div class="col-4-middle">
+      <div class="col-4-middle_sm-12">
         <a href="/">
           <h2 class="logo"> KH KLÚBBHÚS </h2>
         </a>
       </div>
       <nav class="col-8-middle right padded-2 mobile-hide">
+      <span class="dropdown-nav">
         <a href="#"> Matseðill </a>
-         <!-- <div class="dropdown-content"> -->
+         <div class="dropdown-content">
            <a class="padded-1"href="/matsedill-korpa"> Korpa Matseðill</a>
          <a class="padded-1"href="/matsedill-holtid"> Holtið Matseðill</a>
+       </div>
+     </span>
         <!-- <a class="padded-1"href="/veislur"> Veisluþjónusta </a> -->
         <a class="padded-1"href="/fundarherbergi"> Fundarherbergi </a>
         <!-- <a class="padded-1"href="/um-okkur"> Um okkur </a> -->
@@ -54,7 +60,8 @@
           </div>
            <div class="burger-menu">
              <a href="/"> Home </a>
-             <a href="/matsedill">Matseðill</a>
+             <a class="padded-1"href="/matsedill-korpa"> Korpa Matseðill</a>
+           <a class="padded-1"href="/matsedill-holtid"> Holtið Matseðill</a>
              <a href="/fundarherbergi"> Fundarherbergi</a>
              <!-- <a href="/um-okkur"> Um okkur</a> -->
              <a href="hafa-samband">Hafa samband</a>
@@ -69,7 +76,7 @@
     <h2 class="big-bold"> KORPA KLÚBBHÚS </h2>
     <h3 class="not-bold"> VEISLUR DRYKKIR VEITINGAR SAMKOMUR </h3>
   </div>
-  <svg viewBox="0 0 100 5">
+  <svg viewBox="0 0 100 5" >
     <polygon points="0,0 50,5 100,0 100,5 0,5"/>
   </svg>
   
@@ -79,13 +86,13 @@
 
 <!-- Section 1 starts -->
 <section class="grid-spaceBetween">
-  <div class="col-5_sm-12">
+  <div class="col-5_sm-12 margin-bottom-2">
     <h2> Sagan okkar </h2>
     <p> Korpa Klúbbhús er glæsilegur veitingarstaður sem staðsettur er á Korpulsstöðum. Korpa Klúbbhús tilheyrir golfskálanum á Korpúlsstöðum. Veitingarstaðurinn er opin almenning og því ekki nauðsynlegt að spila golf til að koma og borða góðan mat hjá okkur. Klúbbhúsið er opið hús og því engar borðapantanir. Vertu velkomin til okkar. </p>
     <a class="button-homepage"href="/um-okkur"> Um okkar </a>
   </div>
-  <div class="col-3_sm-4_xs-12 photo1-bg photos"> </div>
-  <div class="col-3_sm-4_xs-12 photo2-bg photos"> </div>
+  <div class="col-3_sm-12_xs-12 photo1-bg photos"> </div>
+  <div class="col-3_sm-hidden photo2-bg photos"> </div>
 </section>
 
   <!-- section 1 ends -->
@@ -93,11 +100,11 @@
   <!-- 3 images banner -->
 
   <section class="grid">
-    <div class="col-4_sm-12 photo3-bg">
+    <div class="col-4_sm-12 photo3-bg mobile-margin-butt">
     </div>
-    <div class="col-4_sm-12 photo4-bg">
+    <div class="col-4_sm-12 photo4-bg mobile-margin-butt">
     </div>
-    <div class="col-4_sm-12 photo5-bg">
+    <div class="col-4_sm-12 photo5-bg mobile-margin-butt">
     </div>
   </section>
 
@@ -136,14 +143,14 @@
 
 <!-- section 3 starts -->
   <section class="grid-spaceBetween">
-    <div class="col-5_sm-12">
+    <div class="col-5_sm-12 margin-bottom-2">
     <h2> Fundarherbergi </h2>
     <p> Færst hefur í vöxt að fyrirtæki og hópar haldi hádegisfundi utan vinnustaðar. Hjá Korpa Klúbbhús er aðstaða til slíkra funda til fyrirmyndar. Algengt er að boðið sé upp á morgunverð, hádegisverð og síðdegiskaffi. Fyrsta flokks aðstaða, gott aðgengi, frábær matur og góð þjónusta.</p>
     <a class="button-homepage"href="/fundarherbergi"> Fyrirspurn </a>
     </div>
-    <div class="col-3_sm-4_xs-12 photo10-bg">
+    <div class="col-3_sm-12_xs-12 photo10-bg">
       </div>
-    <div class="col-3_sm-4_xs-12 photo11-bg">
+    <div class="col-3_sm-hidden photo11-bg">
       </div>
   </section>
 

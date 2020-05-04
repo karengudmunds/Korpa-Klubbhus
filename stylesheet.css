@@ -514,7 +514,6 @@ svg {
 
 
 
-
 /* Mobile hamburger menu - from codepan */
 
 .burger-button {
@@ -637,13 +636,31 @@ svg {
   .mobile-hide {
     display: none;
   }
+.mobile-margin-butt{
+  margin-bottom: 2rem;
+}
+
+.padded-10 {
+  padding: 10%
+}
+
   .mobile-center {
     text-align: center;
   }
   [class*=photo] {
       padding-bottom: 100%;
 }
+.dropdown-content {
+    display: block;
+    position: relative;
+
+  }
+.mobile-special-svg {
+  fill: red;
+}
  }
+
+
 
 @media (min-width: 36em) {
 
