@@ -161,15 +161,15 @@ footer a {
 }
 
 .bannerimage-bg {
-  background-image: url("Images/bannerimage-bg.jpeg");
-  min-height: 70vh;
+  background-image: url("/Images/Copyright_Karen_9W3A2456.jpg");
+  min-height: 90vh;
 }
 
 .image-bg {
-  background-image: url("https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("/Images/Copyright_Karen_9W3A2456.jpg");
   max-width: 1800px;
   min-height: 470px;
-  background-position: 50% 49%;
+  background-position: 60% 55%;
 }
 
 .photo1-bg {
@@ -225,11 +225,11 @@ footer a {
 }
 
 .photo10-bg {
-  background-image: url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80");
+  background-image: url("/Images/Copyright_Karen_9W3A2446-Edit.jpg");
 }
 
 .photo11-bg {
-  background-image: url("https://images.unsplash.com/photo-1570126646281-5ec88111777f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80");
+  background-image: url("/Images/Copyright_Karen_9W3A2446-Edit.jpg");
 }
 
 .fundur-bg {
