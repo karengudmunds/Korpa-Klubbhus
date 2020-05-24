@@ -390,6 +390,15 @@ footer a {
   text-align: center;
 }
 
+.verticle-line {
+  margin: 0 1rem;
+  border-left: 2px solid black;
+}
+
+.inline {
+  display: inline;
+}
+
 .fundir h2 {
   font-weight: bold;
   font-size: 60px;
@@ -399,7 +408,6 @@ footer a {
   font-size: 30px;
   font-weight: normal;
   font-family: miller display;
-
 }
 
 .fundir-fixed {
