@@ -181,14 +181,14 @@ footer a {
 }
 
 .photo3-bg {
-  background-image: url("Images/pizza-home.jpeg");
+  background-image: url("Images/mynd1.jpg");
   max-width: 400px;
   min-height: 400px;
   background-position: 50% 75%;
 }
 
 .photo4-bg {
-  background-image: url("Images/burger.jpeg");
+  background-image: url("Images/mynd2.jpg");
 }
 
 .photo5-bg {
