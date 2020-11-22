@@ -1,0 +1,24 @@
+<section class="grid{% if include.block.image-position == right %}-reverse{% endif %}">
+
+  <!-- Cloudcannon Editor Link -->
+  <a href="cloudcannon:#page_blocks[{{ forloop.index0 }}]" class="editor-link" data-cms-editor-link-style="modal"> Edit section </a>
+  <!-- Cloudcannon editor ends -->
+
+<!-- Image Column -->
+<div class="col-8_sm-12 promotion-banner bg-image {{include.block.banner-height}}" style="background-image:url({{include.block.promotion_image}})">
+  </div>
+
+<!-- text column -->
+<div class="col-4_sm-12 {{include.block.background-color}} grid">
+
+  <div class="col-12-{{include.block.text-position}} padded-2">
+    {{include.block.text_html}}
+
+    {% unless include.block.button-url == nil %}
+    <a href="{{include.block.button-url}}" class="button"> {{include.block.button-text}} </a>
+    {% endunless %}
+
+  </div>
+</div>
+
+</section>

@@ -666,8 +666,11 @@ svg {
 .mobile-special-svg {
   fill: red;
 }
- }
 
+.fixed-banner {
+  background-attachment: scroll;
+}
+} /* end media quary */
 
 
 @media (min-width: 36em) {
