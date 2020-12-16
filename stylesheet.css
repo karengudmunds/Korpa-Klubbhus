@@ -593,43 +593,6 @@ svg {
   display: block;
 }
 
-/* Mobile hamburger menu - from codepan */
-.burger-button {
-  position: fixed;
-  top: 2vh;
-  right: 2vh;
-  z-index: 9;
-  padding: 8px;
-}
-
-/*this is where you can chand the color of the buttons*/
-.burger-button span {
-  width: 40px;
-  border-bottom: 2px solid #404040;
-  background-color: black;
-  display: block;
-  border-radius: 22px;
-  transition: 2s;
-}
-
-.burger-button.active span {
-  border-color: #404040;
-  background-color: #383;
-}
-
-.burger-top, .burger-bottom {
-  position: absolute;
-}
-
-.burger-top {
-  top: -02px;
-}
-
-.burger-bottom {
-  bottom: -02px;
-}
-
-/* make sure this has the same top as the burger button has padding*/
 .burger-button.active .burger-top {
   position: absolute;
   top: 8px;
@@ -642,45 +605,107 @@ svg {
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* make sure this has the same bottom as the burger button has padding*/
-.burger-button.active .burger-bottom {
-  position: absolute;
-  bottom: 8px;
-  transform: rotateZ(-45deg);
-}
 
-.burger-menu {
-  display: flex;
-  position: fixed;
-  top: -100vh;
-  left: 0;
-  right: 0;
-  bottom: 100vh;
-  background-color: #f9f9f9;
-  padding: 5px;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-  z-index: 8;
-  transition: 1s;
-  align-content: space-around;
-  justify-content: space-around;
-  flex-direction: column;
-}
+/* Hamburger Menu */
+  .mobile-menu {
+    display: none;
+  }
 
-.burger-menu.active {
-  top: 0;
-  bottom: 0;
-}
+  .hamburger {
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 3;
+    font-size: 1.5rem;
+    padding:1rem 5%;
+    cursor: pointer;
+    z-index:3;
+  }
 
-.burger-menu a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 300;
-  color: #C3BFBC;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  display: block;
-  padding: 5px 15px;
-  text-align: center;
-  white-space: nowrap;
+  .hamburger.active {
+    color: #f5c5c5;
+    position: fixed;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: #CFCECB;
+    padding: 10%;
+    z-index: 3;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .mobile-menu .padded-1 {
+    padding-bottom:0;
+  }
+
+  .mobile-menu hr {
+    margin: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-menu a {
+    padding: 0.4rem;
+    display: block;
+    text-decoration: none;
+    color: rgb(60,60,60);
+    font-size: 1.4rem;
+    font-family: 'futura-pt';
+    text-transform: none;
+
+  }
+
+  .mobile-menu .inline a, {
+    display: inline-block;
+    color: rgb(100,100,110);
+    font-weight: normal;
+    font-family: 'futura-pt';
+    text-transform: none;
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    font-style: italic;
+  }
+
+  .mobile-menu .emphasis, {
+    background-color: rgb(60,60,60);
+    color: white;
+    margin: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    font-family: 'futura-pt';
+  }
+
+  header .mobile-menu a {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-property: opacity;
+  }
+
+  header .mobile-menu a {
+    --index: 0;
+    transition-delay: calc(0.25s * var(--index));
+  }
+
+   header .mobile-menu.active a {
+    opacity: 1;
+    transform: translate(0);
+  }
+
+  .back-button img {
+    max-width: 2.5rem;
+    opacity: 0.8;
+  }
+
+button:focus {
+  outline: none;
 }
 
 /* Dropdown from codepan */
@@ -743,7 +768,7 @@ svg {
   }
 
   .mobile-special-svg {
-    fill: red;
+    fill: #90877c;
   }
 
   .fixed-banner {

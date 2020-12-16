@@ -13,6 +13,9 @@
 <!-- Social media icons  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
 
+<!-- Font Awesome Version 5 for Icons  -->
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" media="print" onload="this.media='all'; this.onload=null;"/>
+
 <!-- Custom stylesheet -->
 <link rel="stylesheet" href="/stylesheet.css">
 
@@ -52,21 +55,33 @@
       </nav>
     </header>
 
-    <nav class="mobile-show">
-          <div class="burger-button">
-              <span class="burger-top"></span>
-              <span class="burger-middle"></span>
-              <span class="burger-bottom"></span>
-          </div>
-           <div class="burger-menu">
-             <a href="/"> Home </a>
-             <a class="padded-1"href="/matsedill-korpa"> Korpa Matseðill</a>
-           <a class="padded-1"href="/matsedill-holtid"> Holtið Matseðill</a>
-             <a href="/fundarherbergi"> Fundarherbergi</a>
-             <!-- <a href="/um-okkur"> Um okkur</a> -->
-             <a href="hafa-samband">Hafa samband</a>
-          </div>
-    </nav>
+<!-- Hamburger Menu
+
+<!-This is the mobile menu  -->
+<nav class="mobile-menu">
+  <div class="mini-header">
+    <a href="/" data-aos="fade">
+      <!-- <img class="logo" src="/images/..." nopin = "nopin"> -->
+    </a>
+  </div>
+  <div class="padded-1">
+    <a href="/" style="--index: 0;"> Heim </a>
+    <a href="/matsedill-korpa" style="--index: 1;"> Korpa matseðill </a>
+    <a href="/matsedill-holtid" style="--index: 3;"> Holtið matseðill </a>
+    <a href="/fundarherbergi" style="--index: 4;"> Fundarherbergi </a>
+    <a href="/hafa-samband" style="--index: 4;"> Hafa samband </a>
+  </div>
+  <nav class="inline socials">
+    <a href="http://www.instagram.com/khklubbhus" target="_blank" style="--index: 5;">
+      <!-- <i class="fab fa-instagram"></i> -->
+      Instagram
+    </a>
+    <a href="http://www.facebook.com/khklubbhus" target="_blank" style="--index: 5;">
+      <!-- <i class="fab fa-youtube"></i> -->
+      Facebook
+    </a>
+  </nav>
+</nav>
 
 <!-- header ends -->
 
