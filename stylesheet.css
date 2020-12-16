@@ -708,6 +708,11 @@ button:focus {
   outline: none;
 }
 
+.border {
+  border: 2px solid #fff;
+}
+
+
 /* Dropdown from codepan */
 .dropdown-content {
   display: none;
