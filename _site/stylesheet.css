@@ -250,7 +250,7 @@ footer a {
 }
 
 .black-bg {
-  background-color: #141414;
+  background-color: #242424;
   color: #90877c;
 }
 
@@ -375,11 +375,11 @@ footer a {
 }
 
 .button-homepage {
-  letter-spacing: .5rem;
+  letter-spacing: .2rem;
   border: 2px solid black;
   text-transform: uppercase;
   display: inline-block;
-  width: 12rem;
+  width: 10rem;
   text-align: center;
   padding: .8rem;
   font-family: futura-pt, sans-serif;
