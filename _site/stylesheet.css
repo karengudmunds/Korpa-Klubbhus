@@ -320,6 +320,10 @@ footer a {
   padding: 10rem;
 }
 
+.padded-4 {
+  padding: 4rem;
+}
+
 .padded-point-5per {
   padding: .5%
 }
