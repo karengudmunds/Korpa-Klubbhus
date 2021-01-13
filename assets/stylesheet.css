@@ -25,6 +25,10 @@ section, footer {
   padding: 5% 7%;
 }
 
+/* header {
+  padding: 1% 1%;
+} */
+
 /* typography */
 h1, h2, h3, hr, p {
   margin-bottom: 1.5rem;
@@ -187,10 +191,10 @@ footer a {
 
 hr {
   border: none;
-  border-bottom: 2px solid black;
-  margin: 1rem 1rem auto 17rem;
-  width: 8rem;
-  margin-bottom: 2rem;
+  border-bottom: 3px solid;
+  width: 4rem;
+  margin-bottom: 1rem;
+  margin: auto;
 }
 
 
