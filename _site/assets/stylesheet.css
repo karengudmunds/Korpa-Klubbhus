@@ -93,10 +93,11 @@ header a {
 footer h3 {
   letter-spacing: .2rem;
   text-transform: uppercase;
+  color: #90887C;
 }
 
 footer p {
-  color: inherit;
+  color: #90887C;
 }
 
 
@@ -185,7 +186,7 @@ form {
 
 footer a {
   display: block;
-  color: inherit;
+  color: #90887C;;
   margin-bottom: .5rem;
 }
 
