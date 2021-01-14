@@ -100,6 +100,12 @@ footer p {
   color: #90887C;
 }
 
+footer .logo  {
+  margin-left: 0;
+}
+.sub-footer {
+  min-height: 0;
+}
 
 .sub-footer p a {
   font-family: futura-pt, sans-serif;
@@ -208,15 +214,13 @@ hr {
 }
 
 .bannerimage-bg {
-  background-image: url("/Images/Copyright_Karen_9W3A2456.jpg");
+  background-image: url("/Images/burger-menu.jpeg");
   min-height: 90vh;
 }
 
-.image-bg {
-  background-image: url("/Images/Copyright_Karen_9W3A2456.jpg");
-  max-width: 1800px;
-  min-height: 470px;
-  background-position: 60% 55%;
+.promo-bg {
+  background-image: url("/Images/11-agust.jpg");
+  background-position: 60% 60%;
 }
 
 .photo1-bg {
@@ -289,7 +293,7 @@ hr {
 .featured-bg { background-color: }
 .light-black-bg { background-color: #222222; }
 .black-bg { background-color: #242424; }
-.grey-bg { background-color: #f3f3f3; }
+.grey-color { background-color: #f3f3f3; }
 
 
 /* text-alignment classes */
@@ -410,6 +414,19 @@ hr {
   margin-bottom: 1rem;
 }
 
+
+.tall-35  {  min-height: 35vh;   }
+.tall-50  {  min-height: 50vh;   }
+.tall-60  {  min-height: 60vh;   }
+.tall-70  {  min-height: 70vh;   }
+.tall-80  {  min-height: 80vh;   }
+.tall-90 {   min-height: 90vh;  }
+.tall-100 {  min-height: 100vh;  }
+.tall-110 {  min-height: 110vh;  }
+
+
+
+
 /* button  */
 .button {
   border: 2px solid black;
@@ -472,6 +489,11 @@ hr {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: .2rem;
+  margin-bottom: 1.2rem;
+}
+
+.menu-item {
+  min-height: 8rem;
 }
 
 .description {
@@ -542,7 +564,7 @@ hr {
 }
 
 .big-bold {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   font-family: futura-pt, sans-serif;
   letter-spacing: 1rem;
