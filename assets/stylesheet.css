@@ -87,6 +87,10 @@ a:hover {
   color: #f3f3f3;
 }
 
+.menu-hover:hover {
+  color: #242424;
+}
+
 header a {
   text-transform: uppercase;
   letter-spacing: .1rem;
