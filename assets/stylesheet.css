@@ -369,7 +369,7 @@ hr {
   padding: 0;
 }
 
-.padding-0.5 { padding: 0.2;}
+.padding-0.5 { padding: 0.5;}
 
 
 /* Margin */
@@ -399,6 +399,14 @@ hr {
 
 .margin {
   margin: 2rem 15rem;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.margin-top-1 {
+  margin-bottom: 1rem;
 }
 
 /* button  */
@@ -827,7 +835,17 @@ button:focus {
   .fixed-banner {
     background-attachment: scroll;
   }
+
+.big-bold {
+  font-size: 11vw;
 }
+
+.not-bold {
+  letter-spacing: 0.2vw;
+}
+
+
+} /* end media query */
 
 /* end media quary */
 @media (min-width: 36em) {}
