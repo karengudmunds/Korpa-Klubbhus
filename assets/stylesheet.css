@@ -227,14 +227,14 @@ hr {
 }
 
 .photo3-bg {
-  background-image: url("Images/mynd1.jpg");
+  background-image: url("/Images/mynd1.jpg");
   max-width: 400px;
   min-height: 400px;
   background-position: 50% 75%;
 }
 
 .photo4-bg {
-  background-image: url("Images/mynd2.jpg");
+  background-image: url("/Images/mynd2.jpg");
 }
 
 .photo5-bg {
@@ -368,6 +368,9 @@ hr {
 .no-padding {
   padding: 0;
 }
+
+.padding-0.5 { padding: 0.2;}
+
 
 /* Margin */
 .margin-1 {
