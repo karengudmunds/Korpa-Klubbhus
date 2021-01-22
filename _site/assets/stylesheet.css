@@ -32,8 +32,8 @@ section, footer {
 
 .logo {
   color: #90887C;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 /* typography */
