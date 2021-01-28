@@ -523,7 +523,7 @@ hr {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9;
+  z-index: 2;
 }
 
 .relative {
@@ -599,17 +599,17 @@ svg {
   display: block;
 }
 
-.burger-button.active .burger-top {
+/* .burger-button.active .burger-top {
   position: absolute;
   top: 8px;
   transform: rotateZ(45deg);
 }
 
 .burger-button.active .burger-middle {
-  /*   transform: rotateZ(270deg); */
+   transform: rotateZ(270deg);
   border-color: rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
-}
+} */
 
 
 /* Hamburger Menu */
@@ -618,18 +618,21 @@ svg {
   }
 
   .hamburger {
+    display: none;
     position: absolute;
     top:0;
     right:0;
     z-index: 3;
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding:1rem 5%;
+    line-height:0.2;
     cursor: pointer;
-    z-index:3;
+    color: white;
+    margin-top: -0.5rem;
   }
 
   .hamburger.active {
-    color: #f5c5c5;
+    color: black;
     position: fixed;
   }
 
@@ -749,7 +752,8 @@ button:focus {
 }
 
 @media (max-width:756px) {
-  .mobile-show {
+  .mobile-show,
+  .hamburger {
     display: block;
   }
 
