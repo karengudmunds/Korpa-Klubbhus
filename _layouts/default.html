@@ -22,9 +22,6 @@
 <!-- Adobe fonts -->
 <link rel="stylesheet" href="https://use.typekit.net/edg4wtk.css">
 
-<!-- google font -->
-<link href="https://fonts.googleapis.com/css?family=Yantramanav&display=swap" rel="stylesheet">
-
 <!-- favicon -->
 <link rel="icon" href="/Images/Favicon.png" sizes="16x16" type="image/png">
 
@@ -32,25 +29,19 @@
 <!-- Header starts -->
   </head>
   <body id="top">
-    <header class="grid black-bg header">
-      <div class="col-4-middle_sm-12 inline">
-        <a href="/">
-          <h2 class="logo"> KH KLÚBBHÚS </h2>
-        </a>
-      </div>
-      <nav class="col-8-middle inline right padded-2 mobile-hide">
-      <span class="dropdown-nav">
-        <a class="padded-1"href="#"> Matseðill </a>
-         <div class="dropdown-content">
-           <a class="padded-1 menu-hover"href="/matsedill-korpa"> Matseðill</a>
-         <!-- <a class="padded-1 menu-hover"href="/matsedill-holtid"> Holtið Matseðill</a> -->
-       </div>
-     </span>
-        <a class="padded-1"href="/fundarherbergi"> Fundarherbergi </a>
-        <a class="padded-1"href="/hafa-samband"> Hafa samband </a>
-        <a class="padded-1"href="/hafa-samband"> BÓKA FUNDI  </a>
-      </nav>
-    </header>
+    <header class="grid bg-dark #header">
+    <div class="col-4-middle">
+      <a href="/" class="logo">
+        <h2> KLÚBBHÚS. </h2>
+      </a>
+    </div>
+    <nav class="col-8-middle right padding">
+      <a href="/matsedill"> Matseðill </a>
+      <a href="/fundarherbergi"> Fundarherbergi </a>
+      <a href="hafa-samband"> Hafa samband </a>
+      <a href="/hafa-samband"> Bóka fundi </a>
+    </nav>
+  </header>
 
 <!-- Hamburger Menu -->
 
@@ -91,13 +82,13 @@
 <section class="banner grid-center fixed-banner bannerimage-bg relative">
   <div class="col-6_sm-12-middle centered">
     <h2 class="big-bold"> {{page.banner-heading}} </h2>
-    <h3 class="not-bold"> VEISLUR DRYKKIR VEITINGAR SAMKOMUR </h3>
+    <h4 class="not-bold"> VEISLUR DRYKKIR VEITINGAR SAMKOMUR </h4>
   </div>
   <svg viewBox="0 0 100 5" {% if page.url == "/hafa-samband.html"%}class="mobile-special-svg"{% endif %}>
     <polygon points="0,0 50,5 100,0 100,5 0,5"/>
   </svg>
   {% if page.url == "/hafa-samband.html"%}
-  <svg viewBox="0 0 100 5" class="special-svg">
+  <svg viewBox="0 0 100 5" class="special-svg meeting-svg">
     <polygon points="0,0 50,5 0,5"/>
   </svg>
   {% endif %}
@@ -109,32 +100,31 @@
 
 <!-- footer starts -->
 
-<footer class="grid-middle padded-3 black-bg">
+<!-- <footer class="grid-middle padded-3 black-bg"> -->
   <!-- column -->
-  <div class="col-3_sm-4_xs-12 padded-1">
+  <!-- <div class="col-3_sm-4_xs-12 padded-1">
     <h2 class="logo"> KH KLÚBBHÚS </h2>
     <p> KH Klúbbhús eru tveir glæsilegir veitingarstaðir sem tilheyra golfskálum hjá Golfklúbbi Reykjavíkur. Korpa Klúbbhús er staðsett á Korpúlfsstöðum og Holtið Klúbbhús í Grafarholti. Báðir veitingarstaðirnir er opnir almenning og því ekki nauðsynlegt að spila golf til að koma og borða góðan mat hjá okkur.
       Vertu velkomin til okkar! </p>
-  </div>
-  <div class="col-1 sm-hidden"> <!-- empty filler --> </div>
+  </div> -->
+  <!-- <div class="col-1 sm-hidden">  </div> -->
 
   <!-- column -->
-  <div class="col-3_sm-4_xs-12 padded-1">
+  <!-- <div class="col-3_sm-4_xs-12 padded-1">
     <h3> UM OKKUR </h3>
     <nav>
       <a href="/matsedill-korpa"> Matseðill </a>
       <a href="/fundarherbergi"> Fundarherbergi </a>
-      <!-- <a href="/um-okkur"> Um okkur </a> -->
       <a href="/hafa-samband"> Hafa samband </a>
       <a href="/hafa-samband"> Bóka Fundi </a>
       <a href="https://www.grgolf.is"> Golfklúbbur Reykjavíkur </a>
       <br>
       <br>
     </nav>
-  </div>
+  </div> -->
 
   <!-- column -->
-  <div class="col-3_sm-4_xs-12 padded-1">
+  <!-- <div class="col-3_sm-4_xs-12 padded-1">
     <h3> Staðsetningar </h3>
 
     <nav>
@@ -147,11 +137,11 @@
       <br>
       <br>
     </nav>
-  </div>
+  </div> -->
 
 
   <!-- column -->
-  <div class="col-2_sm-4_xs-12 padded-1">
+  <!-- <div class="col-2_sm-4_xs-12 padded-1">
     <h3> FYLGDU OKKUR </h3>
     <nav>
       <a href="https://www.facebook.com/khklubbhus/"> Facebook </a>
@@ -168,14 +158,38 @@
   <br>
   <br>
   <br>
-  </footer>
+  </footer> -->
+
+
+  <footer class="grid padded centered bg-dark">
+      <div class="padded-1 col-12-middle">
+
+        <a href="/" class="logo">
+          <h2 class="text-xl"> Klúbbhús. </h2>
+          <p class="editable text-light"> Veitingarstaðir sem tilheyra golfskálum hjá Golfklúbbi Reykjavíkur. </p>
+        </a>
+
+      </div>
+      <div class="col-12-middle">
+      <hr class="short centered">
+      <nav class="padded-1 text-outer">
+        <a href="/matsedill"> Matseðill </a>/
+        <a href="/fundarherbergi"> Fundarherbergi </a>/
+        <a href="/hafa-samband"> Hafa samband </a>/
+        <a href="/hafa-samband"> Bóka fundi </a>
+      </nav>
+    </div>
+    </footer>
+
+
 
   <!-- footer ends -->
 
-  <section class="centered sub-footer padded-1 grey-color margin-bottom-1">
-      <a href="/">  © 2020 Klúbbhús</a> |
-      <!-- <a href="/">  Privacy Policy </a> -->
-      <a href="http://karengudmunds.is">Website by Karen Gudmunds </a>
+  <section class="grid centered padded-1 margin-bottom-1 bg-light">
+    <div class="col-12-middle">
+    <p class="subtle"> All Right Reserved | Copyright 2021 | Website build by
+      <a href="https://www.karengudmunds.is"> Karen Gudmunds </a> </p>
+    </div>
 </section>
 
 <div class="back-to-top">
