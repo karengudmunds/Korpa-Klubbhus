@@ -151,7 +151,8 @@ footer a {
 /* background colors */
 
 .bg-light { background-color: #DBD3C2; }
-.bg-dark { background-color: #4B5658; }
+.bg-dark { background-color: #292C33; }
+.bg-dark-green { background-color: #4B5658; }
 .bg-grey { background-color: #8A979B; }
 .bg-red { background-color: #BE7B68; }
 
