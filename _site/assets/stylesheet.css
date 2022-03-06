@@ -283,6 +283,7 @@ input, textarea {
   margin-right: .5rem;
   margin-bottom: 0.5rem;
   width: 100%;
+  font-family: lora, serif;
 }
 
 input[type="submit"i] {
