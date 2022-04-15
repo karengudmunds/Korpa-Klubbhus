@@ -9,18 +9,19 @@ html {
 }
 
 @font-face {
-  font-family: made_sunflower;
-  src: url(fonts/made_sunflower);
+  font-family: 'MADESunflower';  
+  src: url(fonts/MADESunflower.otf);
+}
+
+
+@font-face {
+  font-family: 'manrope-regular';
+  src: url(fonts/manrope-regular.otf);
 }
 
 @font-face {
-  font-family: manrope-regular;
-  src: url(fonts/manrope-regular;)
-}
-
-@font-face {
-  font-family: manrope-light;
-  src: url(fonts/manrope-light;)
+  font-family: 'manrope-light';
+  src: url(fonts/manrope-light.otf);
 }
 
 
@@ -54,10 +55,9 @@ section, footer {
 
 /* typography */
 h1, h2, h3, h4, h5, h6, hr  {
-  font-family: 'made-sunflower';
+  font-family: 'MADESunflower';
   margin-bottom: 1.5rem;
   font-weight: 900;
-  text-transform: uppercase;
   line-height: 1.1;
 }
 
@@ -128,7 +128,6 @@ header {
 }
 
 header a {
-  text-transform: uppercase;
   letter-spacing: .1rem;
   font-size: 14px;
   color: #DBD3C2;
@@ -494,17 +493,20 @@ hr {
 
 
 .big-bold {
-  font-size: 4rem;
+  font-size: 8vw;
   font-weight: 900;
   letter-spacing: 1rem;
   color: #ffffff;
   display: inline-block;
+  margin-bottom: 0;
   /* text-shadow: 2px 2px #BE7B68; */
 }
 
 .not-bold {
-  letter-spacing: .5rem;
+  letter-spacing: .3rem;
   font-weight: normal;
+  text-transform: lowercase;
+  text-align: center;
   color: white;
   /* text-shadow: 2px 2px #4B5658; */
 }
