@@ -93,7 +93,7 @@ a {
   text-decoration: none;
   color: inherit;
   display: inline-block;
-  font-family: lora, serif;
+  font-family: 'manrope-regular', serif;
 }
 
 a:hover {
@@ -419,16 +419,15 @@ hr {
 /* button  */
 
 .button {
-  border: 2px solid #4B5658;
   background-color: #4B5658;
   color: #DBD3C2;
-  text-transform: uppercase;
   display: inline-block;
   width: 10rem;
   text-align: center;
-  padding: .8rem;
+  padding: .7rem;
   font-style: normal;
   font-weight: 400;
+  font-family: 'manrope-regular';
 
 }
 
