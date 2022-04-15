@@ -8,6 +8,22 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: made_sunflower;
+  src: url(fonts/made_sunflower);
+}
+
+@font-face {
+  font-family: manrope-regular;
+  src: url(fonts/manrope-regular;)
+}
+
+@font-face {
+  font-family: manrope-light;
+  src: url(fonts/manrope-light;)
+}
+
+
 [class*=grid-], [class*=grid_], [class~=grid] {
   margin: 0;
 }
@@ -38,7 +54,7 @@ section, footer {
 
 /* typography */
 h1, h2, h3, h4, h5, h6, hr  {
-  font-family: raleway, sans-serif;
+  font-family: 'made-sunflower';
   margin-bottom: 1.5rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -64,9 +80,9 @@ p:last-child {
 
 
 p {
-  font-family: lora, serif;
+  font-family: 'manrope-light', serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: .01em;
   color: #3C3C41;
   line-height: 1.4;
