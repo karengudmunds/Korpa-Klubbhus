@@ -630,7 +630,7 @@ svg {
   .hamburger {
     display: none;
     position: absolute;
-    top:0;
+    top:0.4rem;
     right:0;
     z-index: 3;
     font-size: 3rem;
@@ -638,7 +638,6 @@ svg {
     line-height:0.2;
     cursor: pointer;
     color: #DBD3C2;
-    margin-top: -1rem;
   }
 
   .hamburger.active {
