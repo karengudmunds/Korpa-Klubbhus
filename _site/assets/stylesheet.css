@@ -264,6 +264,7 @@ footer a {
 .margin-lr { margin-left: 5%; margin-right: 5%; }
 
 .margin-l-4 { margin-left: -4rem; }
+.margin-left-4 {margin-left: 4vw;}
 
 
 .tall-35  {  min-height: 35vh;   }
@@ -826,6 +827,7 @@ button:focus {
 .sm-font-large { font-size: 3.2rem;}
 
 .sm-padded-t-0 { padding-top: 0; }
+.sm-margin-left-0 {margin-left: 0;}
 
 .logo h2 {
   padding-left: 0;
