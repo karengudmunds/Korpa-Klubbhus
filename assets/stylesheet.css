@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, hr  {
 h1 { font-size: 3rem; }
 h2 {
   font-size: 2.5rem;
-  color: #4B5658;
+  color: #4C3E33;
 }
 h3 { font-size: 2rem; }
 
@@ -293,7 +293,7 @@ footer a {
 
 /* get in touch  */
 label {
-  font-family: lora, serif;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
   font-weight: 300;
   font-size: .8rem;
   text-transform: uppercase;
@@ -311,13 +311,13 @@ label::after {
 }
 
 input, textarea {
-  border: 2px solid #4B5658;
+  border: 2px solid #4C3E33;
   display: block;
   padding: .5rem .5rem;
   margin-right: .5rem;
   margin-bottom: 0.5rem;
   width: 100%;
-  font-family: lora, serif;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
 }
 
 input[type="submit"i] {
@@ -329,7 +329,7 @@ input[type="submit"i] {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  background-color: #4B5658;
+  background-color: #4C3E33;
 }
 
 form {
@@ -554,7 +554,7 @@ svg {
 }
 
 .meeting-svg {
-  fill: #DBD3C2;;
+  fill: #E0B27B;
 }
 
 .menu-svg {
