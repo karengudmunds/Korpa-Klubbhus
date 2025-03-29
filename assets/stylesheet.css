@@ -7,6 +7,16 @@
 html {
   scroll-behavior: smooth;
 }
+/* 
+font-family: "ff-tisa-sans-web-pro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+/* 
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 @font-face {
   font-family: 'MADESunflower';  
@@ -48,14 +58,13 @@ section, footer {
 }
 
 .logo h2 {
-  color: #DBD3C2;
   padding-left: 2rem;
   margin-bottom: 1.2rem;
 }
 
 /* typography */
 h1, h2, h3, h4, h5, h6, hr  {
-  font-family: 'MADESunflower';
+  font-family: "Fjalla One", sans-serif;
   margin-bottom: 1.5rem;
   font-weight: 900;
   line-height: 1.1;
@@ -80,29 +89,26 @@ p:last-child {
 
 
 p {
-  font-family: 'manrope-light', serif;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
   font-style: normal;
   font-weight: 300;
   letter-spacing: .01em;
   color: #3C3C41;
   line-height: 1.4;
-  font-weight: 13px;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #E0B27B;
   display: inline-block;
-  font-family: 'manrope-regular', serif;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
 }
 
 a:hover {
   color: #f3f3f3;
 }
 
-.meeting h3 {
-  font-size: 10rem;
-}
+
 .text-xxs { font-size: 0.8rem; }
 .text-xs {font-size: 1rem;}
 .text-smaller { font-size: 1.3rem;}
@@ -130,7 +136,7 @@ header {
 header a {
   letter-spacing: .1rem;
   font-size: 14px;
-  color: #DBD3C2;
+  color: #E0B27B;
   padding: 0.5rem;
 }
 
@@ -139,7 +145,7 @@ header a:hover {
 }
 
 footer a {
-  color: #DBD3C2;
+  color: #E0B27B;
   padding: 0.25rem 0.5rem;
 }
 
@@ -166,10 +172,13 @@ footer a {
 /* background colors */
 
 .bg-light { background-color: #DBD3C2; }
-.bg-dark { background-color: #292C33; }
-.bg-dark-green { background-color: #4B5658; }
-.bg-grey { background-color: #8A979B; }
-.bg-red { background-color: #BE7B68; }
+.bg-dark { background-color: #4C3E33; }
+.bg-yellow { background-color: #E0B27B; }
+
+.text-light { color: #f9f9f8;}
+.text-dark { color: #4C3E33; }
+.text-yellow { color: #E0B27B; }
+.text-black { color: #31302F; }
 
 
 /* text-alignment classes */
@@ -330,7 +339,7 @@ form {
 
 hr {
   border: none;
-  border-bottom: 3px solid #BE7B68;
+  border-bottom: 3px solid #E0B27B;
   width: 4rem;
   margin-bottom: 1rem;
   margin: auto;
@@ -360,35 +369,32 @@ hr {
   background-position: 60% 60%;
 }
 
-.photo1-bg {
-  background-image: url("/Images/11-agust.jpg");
+.home1-bg {
+  background-image: url("/images/placeholder.jpeg");
 }
 
-.photo2-bg {
-  background-image: url("https://images.unsplash.com/photo-1529003600303-bd51f39627fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+.home2-bg {
+  background-image: url("/images/placeholder.jpeg");
 }
 
-.photo3-bg {
-  background-image: url("/Images/mynd1.jpg");
+.home3-bg {
+  background-image: url("/images/placeholder.jpeg");
   max-width: 400px;
   min-height: 400px;
   background-position: 50% 75%;
 }
 
-.photo4-bg {
-  background-image: url("/Images/mynd2.jpg");
+.home4-bg {
+  background-image: url("/images/placeholder.jpeg");
 }
 
-.photo5-bg {
-  background-image: url("/Images/1-juni.jpg");
+.home5-bg {
+  background-image: url("/images/placeholder.jpeg");
   background-position: 50% 75%;
 }
 
-.photo6-bg {
-  background-image: url("https://images.unsplash.com/photo-1555072956-7758afb20e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
-  min-height: 200px;
-  margin-bottom: 1rem;
-  background-position: 50% 70%;
+.home6-bg {
+  background-image: url("/images/placeholder.jpeg");
 }
 
 .photo7-bg {
@@ -428,15 +434,15 @@ hr {
 /* button  */
 
 .button {
-  background-color: #4B5658;
-  color: #DBD3C2;
+  background-color: #4C3E33;
+  color: #E0B27B;
   display: inline-block;
   width: 10rem;
   text-align: center;
   padding: .7rem;
   font-style: normal;
   font-weight: 400;
-  font-family: 'manrope-regular';
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
 
 }
 
@@ -461,7 +467,7 @@ hr {
 .category {
   letter-spacing: .2rem;
   text-transform: uppercase;
-  color: #22333B;
+  color: #4C3E33;
 }
 
 .menu-title {
@@ -480,8 +486,8 @@ hr {
 .description {
   color: #3C3C41;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .uppercase {
