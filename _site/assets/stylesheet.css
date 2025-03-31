@@ -370,31 +370,33 @@ hr {
 }
 
 .home1-bg {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("/images/publicdeli1.jpg");
 }
 
 .home2-bg {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("/images/publicdeli2.jpg");
 }
 
 .home3-bg {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("/images/publicdeli4.jpg");
   max-width: 400px;
   min-height: 400px;
-  background-position: 50% 75%;
+  background-position: 50% 60%;
 }
 
 .home4-bg {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("/images/publicdeli3.jpg");
 }
 
 .home5-bg {
-  background-image: url("/images/placeholder.jpeg");
-  background-position: 50% 75%;
+  background-image: url("/images/publicdeli5.jpg");
+  background-position: 50% 60%;
 }
 
 .home6-bg {
-  background-image: url("/images/placeholder.jpeg");
+  background-image: url("/images/publicdeli4.jpg");
+  min-height: 55vh;
+  background-position: 50% 56%; 
 }
 
 .photo7-bg {
