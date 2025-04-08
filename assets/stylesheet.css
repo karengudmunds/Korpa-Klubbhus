@@ -320,6 +320,12 @@ input, textarea {
   font-family: "ff-tisa-sans-web-pro", sans-serif;
 }
 
+input:focus,
+textarea:focus {
+  border-color: #5c4433; /* or whatever your design color is */
+  outline: none; /* removes the blue glow outline */
+}
+
 input[type="submit"i] {
   -webkit-appearance: none;
   color: #DBD3C2;
