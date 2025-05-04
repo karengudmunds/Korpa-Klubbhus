@@ -377,11 +377,14 @@ hr {
 
 .home1-bg {
   background-image: url("/images/publicdeli1.jpg");
-  min-height: 90vh;
+  max-width: 400px;
+  min-height: 400px;
 }
 
 .home2-bg {
   background-image: url("/images/publicdeli2.jpg");
+  max-width: 400px;
+  min-height: 400px;
 }
 
 .home3-bg {
@@ -886,12 +889,6 @@ button:focus {
   .xs-font-large { font-size: 3.2rem;}
 
   .xs-padded-t-0 { padding-top: 0; }
-
-  .xs-bannerimage-bg { min-height: 46.5vh;}
-
-  .xs-home1-bg {
-    min-height: 55vh;
-  }
 
 }
 
