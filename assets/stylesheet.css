@@ -377,6 +377,7 @@ hr {
 
 .home1-bg {
   background-image: url("/images/publicdeli1.jpg");
+  min-height: 90vh;
 }
 
 .home2-bg {
@@ -558,7 +559,7 @@ svg {
 }
 
 .special-svg {
-  fill: #DBD3C2;;
+  fill: #E0B27B;
 }
 
 .meeting-svg {
@@ -566,7 +567,7 @@ svg {
 }
 
 .menu-svg {
-  fill: #f3f3f3;
+  fill: #E0B27B;
 }
 
 .flex-flip {
@@ -644,10 +645,10 @@ svg {
   .hamburger {
     display: none;
     position: absolute;
-    top:0.4rem;
+    top:-0.5rem;
     right:0;
     z-index: 3;
-    font-size: 3rem;
+    font-size: 2.3rem;
     padding:1rem 5%;
     line-height:0.2;
     cursor: pointer;
@@ -665,7 +666,7 @@ svg {
     left:0;
     right:0;
     bottom: 0;
-    background-color: #8A979B;
+    background-color: #E0B27B;
     padding: 10%;
     z-index: 3;
     text-align: left;
@@ -685,8 +686,8 @@ svg {
     padding: 0.4rem;
     display: block;
     text-decoration: none;
-    color: rgb(60,60,60);
-    font-size: 1.4rem;
+    color: #4C3E33;
+    font-size: 1.2rem;
     text-transform: none;
 
   }
@@ -791,7 +792,7 @@ button:focus {
     position: relative;
   }
 
-  .mobile-special-svg { fill: #90877c; }
+  .mobile-special-svg { fill: #E0B27B; }
 
   .fixed-banner { background-attachment: scroll; }
 
@@ -885,6 +886,13 @@ button:focus {
   .xs-font-large { font-size: 3.2rem;}
 
   .xs-padded-t-0 { padding-top: 0; }
+
+  .xs-bannerimage-bg { min-height: 46.5vh;}
+
+  .xs-home1-bg {
+    min-height: 55vh;
+  }
+
 }
 
 @media (min-width: 48em) {
