@@ -852,6 +852,7 @@ button:focus {
 
 .category {
   margin-top: 2rem;
+  font-size: 1.9rem;
 }
 
 .fontawesome {
@@ -884,7 +885,7 @@ button:focus {
   .xs-font-small { font-size: 1.2rem;}
   .xs-font-small-1-5 { font-size: 1.5rem;}
   .xs-font-small-1-7 { font-size: 1.7rem;}
-  .xs-font-small-1-8 { font-size: 1.8rem;}
+  .xs-font-small-1-9 { font-size: 1.9rem;}
   .xs-font-medium { font-size: 2rem;}
   .xs-font-large { font-size: 3.2rem;}
 
